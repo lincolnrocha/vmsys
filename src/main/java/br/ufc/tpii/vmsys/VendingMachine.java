@@ -29,7 +29,7 @@ public class VendingMachine {
 	}
 
 	public void addCoins(double coins) {
-		this.coinsDeposited += coins;
+		this.coinsDeposited -= coins;
 	}
 
 	public double getCoinsDeposited() {
